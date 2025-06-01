@@ -5,19 +5,11 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     rpi-linux-stable-src = {
       flake = false;
-      url = "github:raspberrypi/linux/stable_20241008";
-    };
-    rpi-linux-6_6_78-src = {
-      flake = false;
-      url = "github:raspberrypi/linux/rpi-6.6.y";
-    };
-    rpi-linux-6_12_17-src = {
-      flake = false;
-      url = "github:raspberrypi/linux/rpi-6.12.y";
+      url = "github:raspberrypi/linux/stable_20250127";
     };
     rpi-firmware-src = {
       flake = false;
-      url = "github:raspberrypi/firmware/1.20241008";
+      url = "github:raspberrypi/firmware/1.20250127";
     };
     rpi-firmware-nonfree-src = {
       flake = false;
